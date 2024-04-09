@@ -15,6 +15,11 @@
 		9742571F2BC561B10020C9EB /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742571E2BC561B10020C9EB /* ModuleTransitionable.swift */; };
 		974257212BC561C90020C9EB /* AlertShowable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257202BC561C90020C9EB /* AlertShowable.swift */; };
 		974257232BC562710020C9EB /* MainThreadRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257222BC562710020C9EB /* MainThreadRunner.swift */; };
+		974257262BC59CDD0020C9EB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257252BC59CDD0020C9EB /* NetworkManager.swift */; };
+		974257282BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257272BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift */; };
+		9742572A2BC5A3BA0020C9EB /* NetworkManager+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257292BC5A3BA0020C9EB /* NetworkManager+Requests.swift */; };
+		9742572D2BC5A4110020C9EB /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742572C2BC5A4110020C9EB /* List.swift */; };
+		9742572F2BC5A5960020C9EB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742572E2BC5A5960020C9EB /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		9742571E2BC561B10020C9EB /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
 		974257202BC561C90020C9EB /* AlertShowable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertShowable.swift; sourceTree = "<group>"; };
 		974257222BC562710020C9EB /* MainThreadRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThreadRunner.swift; sourceTree = "<group>"; };
+		974257252BC59CDD0020C9EB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		974257272BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extensions.swift"; sourceTree = "<group>"; };
+		974257292BC5A3BA0020C9EB /* NetworkManager+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Requests.swift"; sourceTree = "<group>"; };
+		9742572C2BC5A4110020C9EB /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		9742572E2BC5A5960020C9EB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 		974256FB2BC559620020C9EB /* BooksTest */ = {
 			isa = PBXGroup;
 			children = (
+				9742572B2BC5A4050020C9EB /* Data */,
+				974257242BC59CCB0020C9EB /* Network */,
 				9742571B2BC55E5A0020C9EB /* Helpers */,
 				9742571A2BC55E550020C9EB /* Extensions */,
 				974257192BC55E4C0020C9EB /* Protocols */,
@@ -148,6 +160,7 @@
 		9742571A2BC55E550020C9EB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				974257272BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -159,6 +172,24 @@
 				974257222BC562710020C9EB /* MainThreadRunner.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		974257242BC59CCB0020C9EB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				974257252BC59CDD0020C9EB /* NetworkManager.swift */,
+				974257292BC5A3BA0020C9EB /* NetworkManager+Requests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9742572B2BC5A4050020C9EB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9742572C2BC5A4110020C9EB /* List.swift */,
+				9742572E2BC5A5960020C9EB /* Book.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +263,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				974256FD2BC559620020C9EB /* AppDelegate.swift in Sources */,
+				9742572D2BC5A4110020C9EB /* List.swift in Sources */,
 				9742571D2BC55F820020C9EB /* ImageDowloader.swift in Sources */,
+				9742572F2BC5A5960020C9EB /* Book.swift in Sources */,
+				974257282BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift in Sources */,
 				974257212BC561C90020C9EB /* AlertShowable.swift in Sources */,
+				9742572A2BC5A3BA0020C9EB /* NetworkManager+Requests.swift in Sources */,
+				974257262BC59CDD0020C9EB /* NetworkManager.swift in Sources */,
 				9742571F2BC561B10020C9EB /* ModuleTransitionable.swift in Sources */,
 				974257232BC562710020C9EB /* MainThreadRunner.swift in Sources */,
 				974256FF2BC559620020C9EB /* SceneDelegate.swift in Sources */,

@@ -41,6 +41,7 @@
 		974257632BC70F170020C9EB /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257622BC70F170020C9EB /* BookViewController.swift */; };
 		974257652BC7182C0020C9EB /* BookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257642BC7182C0020C9EB /* BookPresenter.swift */; };
 		974257672BC7262C0020C9EB /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257662BC7262C0020C9EB /* BookCollectionViewCell.swift */; };
+		974257692BC7392F0020C9EB /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257682BC7392F0020C9EB /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		974257622BC70F170020C9EB /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		974257642BC7182C0020C9EB /* BookPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPresenter.swift; sourceTree = "<group>"; };
 		974257662BC7262C0020C9EB /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		974257682BC7392F0020C9EB /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				974257272BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift */,
 				974257302BC69C8B0020C9EB /* UIView+Extensions.swift */,
 				9742574A2BC6E5BD0020C9EB /* CGFloat+Extensions.swift */,
+				974257682BC7392F0020C9EB /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				974257492BC6BB3D0020C9EB /* ListTableViewCell.swift in Sources */,
 				974257462BC6B9EB0020C9EB /* ListsViewController.swift in Sources */,
 				974257262BC59CDD0020C9EB /* NetworkManager.swift in Sources */,
+				974257692BC7392F0020C9EB /* UIImageView+Extensions.swift in Sources */,
 				9742573C2BC6A1DA0020C9EB /* StartViewRouter.swift in Sources */,
 				974257572BC6FC5B0020C9EB /* BooksRouter.swift in Sources */,
 				9742571F2BC561B10020C9EB /* ModuleTransitionable.swift in Sources */,

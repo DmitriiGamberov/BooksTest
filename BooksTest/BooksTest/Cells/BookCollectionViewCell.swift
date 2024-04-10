@@ -21,7 +21,10 @@ final class BookCollectionViewCell: UICollectionViewCell {
     
     func setBook(_ book: Book) {
         bookCoverView.loadImage(from: book.img)
-        titleLabel.text = book.title
+        UIView.transition(with: titleLabel, duration: 0.5, options: .transitionCrossDissolve) { [weak self] in
+            guard let self else { return }
+            titleLabel.text = book.title
+        }
     }
     
     private func setupViews() {

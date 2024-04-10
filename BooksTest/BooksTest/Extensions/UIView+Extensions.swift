@@ -53,19 +53,3 @@ extension UIView {
         return safeAreaLayoutGuide
     }
 }
-
-extension UIImageView {
-    func loadImage(from url: URL) {
-        Task {
-            do {
-                let image = try await CoreObjectsStorage.shared.imageDowloader.imageFromUrl(url)
-                runOnMain { [weak self] in
-                    guard let self else { return }
-                    self.image = image
-                }
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-    }
-}

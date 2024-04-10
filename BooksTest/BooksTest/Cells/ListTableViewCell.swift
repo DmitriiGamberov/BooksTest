@@ -31,7 +31,10 @@ final class ListTableViewCell: UITableViewCell{
     
     func setList(_ list: List) {
         self.list = list
-        titleLabel.text = list.title
+        UIView.transition(with: titleLabel, duration: 0.5) { [weak self] in
+            guard let self else { return }
+            titleLabel.text = list.title
+        }
         collectionView.reloadData()
     }
     
@@ -67,8 +70,8 @@ final class ListTableViewCell: UITableViewCell{
         
         collectionView.pin(on: mainView) { view, superview in
             [
-                view.leftAnchor.constraint(equalTo: superview.leftAnchor, constant: .basePadding),
-                superview.rightAnchor.constraint(equalTo: view.rightAnchor, constant: .basePadding),
+                view.leftAnchor.constraint(equalTo: superview.leftAnchor),
+                superview.rightAnchor.constraint(equalTo: view.rightAnchor),
                 view.bottomAnchor.constraint(equalTo: superview.bottomAnchor, constant: -.basePadding)
             ]
         }
@@ -117,13 +120,13 @@ final class ListTableViewCell: UITableViewCell{
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: 140, height: 200)
         layout.scrollDirection = .horizontal
-        layout.minimumInteritemSpacing = .basePadding
+        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = 0
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.backgroundColor = .white
         collectionView.register(BookCollectionViewCell.self, forCellWithReuseIdentifier: collectionIdentifier)
         collectionView.dataSource = self
         collectionView.delegate = self
-        collectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         collectionView.showsVerticalScrollIndicator = false
         return collectionView
     }()

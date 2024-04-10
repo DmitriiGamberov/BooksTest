@@ -20,12 +20,15 @@ final class BookTableViewCell: UITableViewCell {
     }
     
     func setBook(_ book: Book) {
-        titleLabel.text = book.title
-        /*
-         On the list screen author of the book is not available by API, it requires to add requests for each book by id
-         UPD: Added for now
-         */
-        authorLabel.text = book.author
+        UIView.transition(with: contentView, duration: 0.5, options: .transitionCrossDissolve) { [weak self] in
+            guard let self else { return }
+            titleLabel.text = book.title
+            /*
+             On the list screen author of the book is not available by API, it requires to add requests for each book by id
+             UPD: Added for now
+             */
+            authorLabel.text = book.author
+        }
         bookCoverView.loadImage(from: book.img)
     }
     

@@ -50,11 +50,14 @@ final class BookViewController: UIViewController, BookViewControllerInput, Modul
             guard let self else { return }
             bookCoverView.loadImage(from: book.img)
             navigationItem.title = book.title
-            titleLabel.text = book.title
-            authorLabel.text = book.author
-            isbnLabel.text = book.isbn
-            publicationDateLabel.text = book.dateString()
-            descriptionLabel.text = book.description
+            UIView.transition(with: view, duration: 0.5, options: .transitionCrossDissolve) { [weak self] in
+                guard let self else { return }
+                titleLabel.text = book.title
+                authorLabel.text = book.author
+                isbnLabel.text = book.isbn
+                publicationDateLabel.text = book.dateString()
+                descriptionLabel.text = book.description
+            }
             refreshControl.endRefreshing()
             indicatorView.stopAnimating()
         }

@@ -12,13 +12,20 @@ final class ImageCache {
      Here better to add cache lifetime or just use 3rd paty library such as SDWebImage/Kingfisher
      */
     private var cache: [URL: UIImage] = [:]
+    private let queue: DispatchQueue = DispatchQueue(label: "imageCacgeQueue", attributes: .concurrent)
     
     func cacheImage(_ image: UIImage, for url: URL) {
-        cache[url] = image
+        queue.async(flags: .barrier) {
+            self.cache[url] = image
+        }
     }
     
     func image(for url: URL) -> UIImage? {
-        return cache[url]
+        var result: UIImage?
+        queue.sync {
+            result = cache[url]
+        }
+        return result
     }
 }
 

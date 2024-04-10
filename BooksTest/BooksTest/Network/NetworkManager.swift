@@ -35,7 +35,7 @@ final class NetworkManager: NSObject {
     
     // MARK: - Private
     private func requestFrom(pathURL:URL, method:HTTPMethod) throws -> URLRequest {
-        var urlComponents = URLComponents(url: pathURL, resolvingAgainstBaseURL: true)
+        let urlComponents = URLComponents(url: pathURL, resolvingAgainstBaseURL: true)
         
         guard let url = urlComponents?.url else {
             throw NSError(domain: "NetworkManager", code: 0, userInfo: [NSLocalizedDescriptionKey:"Can't create request"])

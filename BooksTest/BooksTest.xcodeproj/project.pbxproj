@@ -20,6 +20,27 @@
 		9742572A2BC5A3BA0020C9EB /* NetworkManager+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257292BC5A3BA0020C9EB /* NetworkManager+Requests.swift */; };
 		9742572D2BC5A4110020C9EB /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742572C2BC5A4110020C9EB /* List.swift */; };
 		9742572F2BC5A5960020C9EB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742572E2BC5A5960020C9EB /* Book.swift */; };
+		974257312BC69C8B0020C9EB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257302BC69C8B0020C9EB /* UIView+Extensions.swift */; };
+		974257382BC69E670020C9EB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257372BC69E670020C9EB /* StartViewController.swift */; };
+		9742573A2BC6A1610020C9EB /* StartViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257392BC6A1610020C9EB /* StartViewPresenter.swift */; };
+		9742573C2BC6A1DA0020C9EB /* StartViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742573B2BC6A1DA0020C9EB /* StartViewRouter.swift */; };
+		9742573E2BC6A8590020C9EB /* ListsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742573D2BC6A8590020C9EB /* ListsDataSource.swift */; };
+		974257402BC6AF500020C9EB /* ModulesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742573F2BC6AF500020C9EB /* ModulesConfigurator.swift */; };
+		974257422BC6AFEB0020C9EB /* CoreObjectsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257412BC6AFEB0020C9EB /* CoreObjectsStorage.swift */; };
+		974257442BC6B22D0020C9EB /* RootNavigationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257432BC6B22D0020C9EB /* RootNavigationRouterInput.swift */; };
+		974257462BC6B9EB0020C9EB /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257452BC6B9EB0020C9EB /* ListsViewController.swift */; };
+		974257492BC6BB3D0020C9EB /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257482BC6BB3D0020C9EB /* ListTableViewCell.swift */; };
+		9742574B2BC6E5BD0020C9EB /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742574A2BC6E5BD0020C9EB /* CGFloat+Extensions.swift */; };
+		9742574D2BC6E8C40020C9EB /* ListsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742574C2BC6E8C40020C9EB /* ListsPresenter.swift */; };
+		9742574F2BC6E93A0020C9EB /* ListsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742574E2BC6E93A0020C9EB /* ListsRouter.swift */; };
+		974257512BC6F8060020C9EB /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257502BC6F8060020C9EB /* BookTableViewCell.swift */; };
+		974257572BC6FC5B0020C9EB /* BooksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257562BC6FC5B0020C9EB /* BooksRouter.swift */; };
+		974257592BC6FCD10020C9EB /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257582BC6FCD10020C9EB /* BooksViewController.swift */; };
+		9742575B2BC6FF210020C9EB /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742575A2BC6FF210020C9EB /* BooksPresenter.swift */; };
+		974257612BC70EC50020C9EB /* BookRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257602BC70EC50020C9EB /* BookRouter.swift */; };
+		974257632BC70F170020C9EB /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257622BC70F170020C9EB /* BookViewController.swift */; };
+		974257652BC7182C0020C9EB /* BookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257642BC7182C0020C9EB /* BookPresenter.swift */; };
+		974257672BC7262C0020C9EB /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974257662BC7262C0020C9EB /* BookCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +59,27 @@
 		974257292BC5A3BA0020C9EB /* NetworkManager+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Requests.swift"; sourceTree = "<group>"; };
 		9742572C2BC5A4110020C9EB /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		9742572E2BC5A5960020C9EB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		974257302BC69C8B0020C9EB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		974257372BC69E670020C9EB /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		974257392BC6A1610020C9EB /* StartViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewPresenter.swift; sourceTree = "<group>"; };
+		9742573B2BC6A1DA0020C9EB /* StartViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewRouter.swift; sourceTree = "<group>"; };
+		9742573D2BC6A8590020C9EB /* ListsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsDataSource.swift; sourceTree = "<group>"; };
+		9742573F2BC6AF500020C9EB /* ModulesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesConfigurator.swift; sourceTree = "<group>"; };
+		974257412BC6AFEB0020C9EB /* CoreObjectsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreObjectsStorage.swift; sourceTree = "<group>"; };
+		974257432BC6B22D0020C9EB /* RootNavigationRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationRouterInput.swift; sourceTree = "<group>"; };
+		974257452BC6B9EB0020C9EB /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
+		974257482BC6BB3D0020C9EB /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		9742574A2BC6E5BD0020C9EB /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		9742574C2BC6E8C40020C9EB /* ListsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsPresenter.swift; sourceTree = "<group>"; };
+		9742574E2BC6E93A0020C9EB /* ListsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsRouter.swift; sourceTree = "<group>"; };
+		974257502BC6F8060020C9EB /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		974257562BC6FC5B0020C9EB /* BooksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRouter.swift; sourceTree = "<group>"; };
+		974257582BC6FCD10020C9EB /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		9742575A2BC6FF210020C9EB /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
+		974257602BC70EC50020C9EB /* BookRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRouter.swift; sourceTree = "<group>"; };
+		974257622BC70F170020C9EB /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		974257642BC7182C0020C9EB /* BookPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPresenter.swift; sourceTree = "<group>"; };
+		974257662BC7262C0020C9EB /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +112,13 @@
 		974256FB2BC559620020C9EB /* BooksTest */ = {
 			isa = PBXGroup;
 			children = (
+				9742570A2BC559630020C9EB /* Info.plist */,
 				9742572B2BC5A4050020C9EB /* Data */,
 				974257242BC59CCB0020C9EB /* Network */,
 				9742571B2BC55E5A0020C9EB /* Helpers */,
 				9742571A2BC55E550020C9EB /* Extensions */,
 				974257192BC55E4C0020C9EB /* Protocols */,
+				974257472BC6BB220020C9EB /* Cells */,
 				974257142BC55B6B0020C9EB /* Assets */,
 				974257132BC55B600020C9EB /* LaunchScreen */,
 				974257122BC55B510020C9EB /* Modules */,
@@ -86,9 +130,10 @@
 		974257102BC55B420020C9EB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				9742570A2BC559630020C9EB /* Info.plist */,
 				974256FC2BC559620020C9EB /* AppDelegate.swift */,
 				974256FE2BC559620020C9EB /* SceneDelegate.swift */,
+				974257412BC6AFEB0020C9EB /* CoreObjectsStorage.swift */,
+				974257432BC6B22D0020C9EB /* RootNavigationRouterInput.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -96,6 +141,10 @@
 		974257122BC55B510020C9EB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9742575C2BC70E7A0020C9EB /* BookView */,
+				9742573F2BC6AF500020C9EB /* ModulesConfigurator.swift */,
+				974257322BC69DB80020C9EB /* StartView */,
+				974257522BC6FBFD0020C9EB /* BooksView */,
 				974257152BC55DCB0020C9EB /* ListsView */,
 			);
 			path = Modules;
@@ -130,6 +179,7 @@
 		974257162BC55DDD0020C9EB /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				9742574E2BC6E93A0020C9EB /* ListsRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -137,6 +187,7 @@
 		974257172BC55DF00020C9EB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				974257452BC6B9EB0020C9EB /* ListsViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +195,8 @@
 		974257182BC55E030020C9EB /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				9742573D2BC6A8590020C9EB /* ListsDataSource.swift */,
+				9742574C2BC6E8C40020C9EB /* ListsPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -161,6 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				974257272BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift */,
+				974257302BC69C8B0020C9EB /* UIView+Extensions.swift */,
+				9742574A2BC6E5BD0020C9EB /* CGFloat+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,6 +245,118 @@
 				9742572E2BC5A5960020C9EB /* Book.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		974257322BC69DB80020C9EB /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				974257362BC69DDC0020C9EB /* View */,
+				974257352BC69DCC0020C9EB /* Presenter */,
+				974257332BC69DC10020C9EB /* Router */,
+			);
+			path = StartView;
+			sourceTree = "<group>";
+		};
+		974257332BC69DC10020C9EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9742573B2BC6A1DA0020C9EB /* StartViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		974257352BC69DCC0020C9EB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				974257392BC6A1610020C9EB /* StartViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		974257362BC69DDC0020C9EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				974257372BC69E670020C9EB /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		974257472BC6BB220020C9EB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				974257482BC6BB3D0020C9EB /* ListTableViewCell.swift */,
+				974257502BC6F8060020C9EB /* BookTableViewCell.swift */,
+				974257662BC7262C0020C9EB /* BookCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		974257522BC6FBFD0020C9EB /* BooksView */ = {
+			isa = PBXGroup;
+			children = (
+				974257552BC6FC2F0020C9EB /* Presenter */,
+				974257542BC6FC2A0020C9EB /* View */,
+				974257532BC6FC200020C9EB /* Router */,
+			);
+			path = BooksView;
+			sourceTree = "<group>";
+		};
+		974257532BC6FC200020C9EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				974257562BC6FC5B0020C9EB /* BooksRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		974257542BC6FC2A0020C9EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				974257582BC6FCD10020C9EB /* BooksViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		974257552BC6FC2F0020C9EB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9742575A2BC6FF210020C9EB /* BooksPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9742575C2BC70E7A0020C9EB /* BookView */ = {
+			isa = PBXGroup;
+			children = (
+				9742575F2BC70E910020C9EB /* Presenter */,
+				9742575E2BC70E8C0020C9EB /* View */,
+				9742575D2BC70E820020C9EB /* Router */,
+			);
+			path = BookView;
+			sourceTree = "<group>";
+		};
+		9742575D2BC70E820020C9EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				974257602BC70EC50020C9EB /* BookRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9742575E2BC70E8C0020C9EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				974257622BC70F170020C9EB /* BookViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9742575F2BC70E910020C9EB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				974257642BC7182C0020C9EB /* BookPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,17 +429,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9742574B2BC6E5BD0020C9EB /* CGFloat+Extensions.swift in Sources */,
 				974256FD2BC559620020C9EB /* AppDelegate.swift in Sources */,
 				9742572D2BC5A4110020C9EB /* List.swift in Sources */,
 				9742571D2BC55F820020C9EB /* ImageDowloader.swift in Sources */,
 				9742572F2BC5A5960020C9EB /* Book.swift in Sources */,
 				974257282BC5A1EE0020C9EB /* JSONDecoder+Extensions.swift in Sources */,
+				974257422BC6AFEB0020C9EB /* CoreObjectsStorage.swift in Sources */,
+				9742574D2BC6E8C40020C9EB /* ListsPresenter.swift in Sources */,
+				974257592BC6FCD10020C9EB /* BooksViewController.swift in Sources */,
+				974257672BC7262C0020C9EB /* BookCollectionViewCell.swift in Sources */,
+				974257442BC6B22D0020C9EB /* RootNavigationRouterInput.swift in Sources */,
 				974257212BC561C90020C9EB /* AlertShowable.swift in Sources */,
+				974257312BC69C8B0020C9EB /* UIView+Extensions.swift in Sources */,
 				9742572A2BC5A3BA0020C9EB /* NetworkManager+Requests.swift in Sources */,
+				974257632BC70F170020C9EB /* BookViewController.swift in Sources */,
+				9742574F2BC6E93A0020C9EB /* ListsRouter.swift in Sources */,
+				9742573A2BC6A1610020C9EB /* StartViewPresenter.swift in Sources */,
+				974257402BC6AF500020C9EB /* ModulesConfigurator.swift in Sources */,
+				974257382BC69E670020C9EB /* StartViewController.swift in Sources */,
+				9742573E2BC6A8590020C9EB /* ListsDataSource.swift in Sources */,
+				974257612BC70EC50020C9EB /* BookRouter.swift in Sources */,
+				974257492BC6BB3D0020C9EB /* ListTableViewCell.swift in Sources */,
+				974257462BC6B9EB0020C9EB /* ListsViewController.swift in Sources */,
 				974257262BC59CDD0020C9EB /* NetworkManager.swift in Sources */,
+				9742573C2BC6A1DA0020C9EB /* StartViewRouter.swift in Sources */,
+				974257572BC6FC5B0020C9EB /* BooksRouter.swift in Sources */,
 				9742571F2BC561B10020C9EB /* ModuleTransitionable.swift in Sources */,
+				9742575B2BC6FF210020C9EB /* BooksPresenter.swift in Sources */,
 				974257232BC562710020C9EB /* MainThreadRunner.swift in Sources */,
+				974257512BC6F8060020C9EB /* BookTableViewCell.swift in Sources */,
 				974256FF2BC559620020C9EB /* SceneDelegate.swift in Sources */,
+				974257652BC7182C0020C9EB /* BookPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FKR9EGS579;
@@ -421,7 +610,6 @@
 				INFOPLIST_FILE = BooksTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -432,6 +620,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamberov.BooksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +632,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FKR9EGS579;
@@ -450,7 +640,6 @@
 				INFOPLIST_FILE = BooksTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -461,6 +650,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamberov.BooksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

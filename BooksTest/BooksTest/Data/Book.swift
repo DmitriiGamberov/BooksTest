@@ -23,7 +23,7 @@ final class Book {
         self.title = response.title
         self.img = response.img
         self.isbn = response.isbn
-        self.publicationDate = response.publicationDate
+        self.publicationDate = response.publication_date
         self.author = response.author
         self.description = response.description
     }
@@ -33,9 +33,16 @@ final class Book {
         self.title = response.title
         self.img = response.img
         self.isbn = response.isbn
-        self.publicationDate = response.publicationDate
+        self.publicationDate = response.publication_date
         self.author = response.author
         self.description = response.description
+    }
+    
+    func dateString() -> String {
+        guard let publicationDate else { return "" }
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .long
+        return dateFormatter.string(from: publicationDate)
     }
 }
 
@@ -45,7 +52,7 @@ struct BookResponse: Codable {
     let title: String
     let img: URL
     let isbn: String?
-    let publicationDate: Date?
+    let publication_date: Date?
     let author: String?
     let description: String?
 }

@@ -123,7 +123,7 @@ final class ListTableViewCell: UITableViewCell{
         collectionView.register(BookCollectionViewCell.self, forCellWithReuseIdentifier: collectionIdentifier)
         collectionView.dataSource = self
         collectionView.delegate = self
-        collectionView.contentInset = UIEdgeInsets(top: .basePadding, left: .basePadding, bottom: .basePadding, right: .basePadding)
+        collectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         collectionView.showsVerticalScrollIndicator = false
         return collectionView
     }()

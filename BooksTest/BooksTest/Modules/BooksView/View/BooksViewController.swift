@@ -9,6 +9,7 @@ import UIKit
 
 protocol BooksViewControllerInput: AnyObject {
     func setList(_ list: List)
+    func updateBook(_ book: Book)
 }
 
 protocol BooksViewControllerOutput {
@@ -51,6 +52,15 @@ final class BooksViewController: UITableViewController, BooksViewControllerInput
         navigationItem.title = list.title
         tableView.reloadData()
         refreshControl?.endRefreshing()
+    }
+    
+    func updateBook(_ book: Book) {
+        guard let bookIndex = data.firstIndex(where: {$0.id == book.id}) else { return }
+        runOnMain {  [weak self] in
+            guard let self else { return }
+            guard let cell = tableView.cellForRow(at: IndexPath(row: bookIndex, section: 0)) as? BookTableViewCell else { return }
+            cell.setBook(book)
+        }
     }
     
     //MARK: - UITableViewDataSource

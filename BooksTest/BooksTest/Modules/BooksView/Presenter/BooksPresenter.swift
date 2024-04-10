@@ -18,17 +18,20 @@ final class BooksPresenter: BooksViewControllerOutput {
     weak var view: BooksViewControllerInput?
     
     private let dataSource: ListsDataSource
+    private let networkManager: NetworkManager
     
     private var list: List
     
     //MARK: - Lifecycle
     init(networkManager: NetworkManager, list: List) {
         self.list = list
+        self.networkManager = networkManager
         dataSource = ListsDataSource(networkManager: networkManager)
     }
     
     //MARK: - BooksViewControllerOutput
     func booksViewControllerDidLoad() {
+        checkBooksForFullyLoad()
         view?.setList(list)
     }
     
@@ -56,6 +59,21 @@ final class BooksPresenter: BooksViewControllerOutput {
                 runOnMain { [weak self] in
                     guard let self else { return }
                     view?.setList(list)
+                }
+            }
+        }
+    }
+    
+    private func checkBooksForFullyLoad() {
+        for book in list.books {
+            if book.author == nil {
+                networkManager.getBook(id: book.id) {[weak self] bookResponse, error in
+                    guard let self else { return }
+                    if let bookResponse {
+                        book.update(from: bookResponse)
+                        view?.updateBook(book)
+                    }
+                    // I think it's not breaking UX if it's not loaded on this stage
                 }
             }
         }

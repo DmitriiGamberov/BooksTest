@@ -23,6 +23,7 @@ final class BookTableViewCell: UITableViewCell {
         titleLabel.text = book.title
         /*
          On the list screen author of the book is not available by API, it requires to add requests for each book by id
+         UPD: Added for now
          */
         authorLabel.text = book.author
         bookCoverView.loadImage(from: book.img)

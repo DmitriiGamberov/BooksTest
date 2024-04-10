@@ -8,7 +8,6 @@
 import Foundation
 
 protocol BookModuleOutput: AnyObject {
-    func bookLoaded(book: Book)
 }
 
 final class BookPresenter: BookViewControllerOutput {
